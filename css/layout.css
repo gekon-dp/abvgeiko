@@ -268,10 +268,10 @@ footer {
     line-height: 20px;
     /* ie */
     border: none;
-    width: 70%;
+    width: 60%;
     float: left; }
   footer .signup-submit {
-    width: 30%;
+    width: 40%;
     padding: 10px;
     line-height: 20px;
     /* ie */
@@ -281,8 +281,10 @@ footer {
   footer .signup-note {
     display: block;
     font-size: 12px;
-    color: #cef09d;
-    font-style: italic; }
+    color: #f69324;
+    font-style: italic;
+	text-align: center;
+}
   footer .footer-tag {
     display: inline-block;
     background-color: #363636;
@@ -633,13 +635,17 @@ footer.style5 .footer-portfolio li {
 
 /* footer contact info */
 footer.style5 .footer-contact-bg {
-  background: url(../img/map/footer-map-pattern.png) no-repeat left top; }
+  background: url(../img/map/footer-map-pattern.png) no-repeat center top; }
 
 footer.style5 .footer-email,
 footer.style5 .footer-mobile,
 footer.style5 .footer-location,
 footer.style5 .footer-social {
   margin-bottom: 20px; }
+
+.text-grey {
+	color: #949494;
+}
 
 footer.style5 .footer-email a,
 footer.style5 .footer-mobile a,
@@ -654,7 +660,7 @@ footer.style5 .footer-email i {
 
 footer.style5 .footer-location i {
   display: inline-block;
-  float: left;
+  float: center;
   margin-bottom: 15px; }
 
 footer.style5 .footer-social {

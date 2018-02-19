@@ -9203,7 +9203,9 @@ button.close {
   content: "\e6d0"; }
 
 .icon-location-pin:before {
-  content: "\e6d1"; }
+  content: "\e6d1";
+	text-align:  center;
+  color: #fcb715;}
 
 .icon-location:before {
   content: "\e6d2"; }
@@ -9230,7 +9232,9 @@ button.close {
   content: "\e6d9"; }
 
 .icon-mail:before {
-  content: "\e6da"; }
+  content: "\e6da";
+  color: #fcb715;
+}
 
 .icon-man:before {
   content: "\e6db"; }
@@ -9308,7 +9312,9 @@ button.close {
   content: "\e6f3"; }
 
 .icon-phone:before {
-  content: "\e6f4"; }
+  content: "\e6f4";
+  color: #fcb715;
+}
 
 .icon-pie-chart:before {
   content: "\e6f5"; }
