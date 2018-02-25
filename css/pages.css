@@ -696,7 +696,7 @@ iframe {
     font-size: 18px; } }
 /* on hover */
 .portfolio-item:hover .portfolio-hover-container {
-  opacity: 1; }
+  opacity: 0.90; }
 
 .portfolio-pagination,
 .portfolio-showcase-pagination {
