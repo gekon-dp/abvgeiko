@@ -11,7 +11,7 @@
 // ----------------------------------------------------------------------------- */
 /* style 2 */
 .header-top.style2 {
-  padding: 10px 0; }
+  padding: 10px 0 0 0; }
 
 .header-top.style2 .header-top-item {
   color: #a3a2a2; }
@@ -1031,8 +1031,9 @@ footer.style7 .footer-bottom p {
 // ----------------------------------------------------------------------------- */
 /* logo */
 .navbar .navbar-brand img {
-  width: 45px;
-  height: 45px; }
+  height: 100%;
+  
+}
 
 /* navbar */
 /* navbar icon */
@@ -1089,10 +1090,13 @@ footer.style7 .footer-bottom p {
 
 @media (max-width: 767px) {
   .navbar .navbar-header {
-    padding: 15px 0; }
+    padding: 5px 0; }
 
   .navbar .navbar-brand {
-    margin-top: -10px; }
+    margin-top: 0px; 
+    }
+    
+
 
   .navbar-default .navbar-nav > li > a {
     padding: 15px 25px;

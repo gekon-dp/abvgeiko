@@ -60,6 +60,10 @@
 .pull-left {
   float: left;
 }
+
+.pull-left>ul>li {
+  display: inline-block;
+}
 .pe.pull-left {
   margin-right: .3em;
 }
