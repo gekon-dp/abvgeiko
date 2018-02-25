@@ -114,6 +114,57 @@
           
         </header>
 
+       
+
+<!-- Modal -->
+<div class="modal fade" id="diplomas-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <img src="img/diplomas-1.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      
+      <div class="modal fade" id="letter-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <img src="img/letter-1.jpg">
+      </div>
+
+    </div>
+  </div>
+</div>
+      
+      <div class="modal fade" id="charter-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog-w" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <img src="img/charter-1.jpg">
+      </div>
+
+    </div>
+  </div>
+</div>
+       
+       
+       
+       
+       
+       
         <!-- PORTFOLIO -->
         <section class="portfolio-wrapper section-grey section-space" id="portfolio">
             <div class="container" >
@@ -128,9 +179,9 @@
                         <div class="portfolio-nav">
                             <div class="controls">
                                 <button type="button" class="filter btn" data-filter="all">Все</button>
-                                <button type="button" class="filter btn" data-filter=".category-1">Дипломы</button>
-                                <button type="button" class="filter btn" data-filter=".category-2">Рекомендательные письма</button>
-                                <button type="button" class="filter btn" data-filter=".category-3">Грамоты</button>
+                                <button type="button" class="filter btn" data-filter=".diplomas">Дипломы</button>
+                                <button type="button" class="filter btn" data-filter=".letters">Рекомендательные письма</button>
+                                <button type="button" class="filter btn" data-filter=".charter">Грамоты</button>
                                 <button type="button" class="filter btn" data-filter=".category-4">Сертификаты</button>
                             </div><!-- // .controls -->
                         </div><!-- // .portfolio-nav -->
@@ -142,59 +193,58 @@
                         <div class="clearfix">
                             <div id="portfolio-container" class="portfolio-container">
 
-                                <div class="mix portfolio-item category-1">
+                              <a href="#diplomas-1" data-toggle="modal" data-target="#diplomas-1">
+                                <div class="mix portfolio-item diplomas">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
-                                            <div class="icon-circle">
-                                                <a href="portfolio02-read.html"><i class="icon-forward"></i></a>
-                                            </div><!-- End .icon-circle -->
-                                            <h4>Ajax Portfolio Item</h4>
+                                            <h4>diplomas-1</h4>
                                             <h6>HTML/ CSS</h6>
                                         </div><!-- End .portfolio-hover -->
                                     </div><!-- End .portfolio-hover-container -->
-                                    <img src="http://placehold.it/700x700" class="img-responsive" alt="About the image">
-                                </div><!-- End .mix .portfolio-item .category-1 -->
+                                    <img src="img/diplomas-1-preview.png" class="img-responsive" alt="About the image">
+                                </div>
+                              </a><!-- End .mix .portfolio-item .category-1 -->
 
-                                <div class="mix portfolio-item category-2 image-popup-vertical-fit">
+                                <a href="#letter-1" data-toggle="modal" data-target="#letter-1">
+                                   <div class="mix portfolio-item letters image-popup-vertical-fit">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
-                                            <div class="icon-circle">
-                                                <a href="#"><i class="icon-forward"></i></a>
-                                            </div><!-- End .icon-circle -->
-                                            <h4>dscsdcsdcsdcsdcsdcsd</h4>
+                                            
+                                            <h4>letter-1</h4>
                                             <h6>dsdcsdcsdcS</h6>
                                         </div><!-- End .portfolio-hover -->
                                     </div><!-- End .portfolio-hover-container -->
-                                    <img src="http://placehold.it/700x700" class="img-responsive" alt="About the image">
-                                </div><!-- End .mix .portfolio-item .category-2 -->
+                                    <img src="img/letter-1-preview.png" class="img-responsive" alt="About the image">
+                                </div>
+                                </a><!-- End .mix .portfolio-item .category-2 -->
 
-                                <div class="mix portfolio-item category-1">
+                                <div class="mix portfolio-item diplomas">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
                                             <div class="icon-circle">
                                                 <a href="#"><i class="icon-forward"></i></a>
                                             </div><!-- End .icon-circle -->
-                                            <h4>Ajax Portfolio Item</h4>
+                                            <h4>diplomas</h4>
                                             <h6>HTML/ CSS</h6>
                                         </div><!-- End .portfolio-hover -->
                                     </div><!-- End .portfolio-hover-container -->
                                     <img src="http://placehold.it/700x700" class="img-responsive" alt="About the image">
                                 </div><!-- End .mix .portfolio-item .category-1 -->
-
-                                <div class="mix portfolio-item category-3">
+								
+                                <a href="#charter-1" data-toggle="modal" data-target="#charter-1">
+                                <div class="mix portfolio-item charter">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
-                                            <div class="icon-circle">
-                                                <a href="#"><i class="icon-forward"></i></a>
-                                            </div><!-- End .icon-circle -->
-                                            <h4>Ajax Portfolio Item</h4>
+                                           
+                                            <h4>charter-1</h4>
                                             <h6>HTML/ CSS</h6>
                                         </div><!-- End .portfolio-hover -->
                                     </div><!-- End .portfolio-hover-container -->
-                                    <img src="http://placehold.it/700x700" class="img-responsive" alt="About the image">
-                                </div><!-- End .mix .portfolio-item .category-3 -->
+                                    <img src="img/charter-1-preview.png" class="img-responsive" alt="About the image">
+                                </div>
+                                </a><!-- End .mix .portfolio-item .category-3 -->
 
-                                <div class="mix portfolio-item category-2">
+                                <div class="mix portfolio-item letters">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
                                             <div class="icon-circle">
@@ -207,39 +257,39 @@
                                     <img src="http://placehold.it/700x700" class="img-responsive" alt="About the image">
                                 </div><!-- End .mix .portfolio-item .category-2 -->
 
-                                <div class="mix portfolio-item category-3">
+                                <div class="mix portfolio-item charter">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
                                             <div class="icon-circle">
                                                 <a href="#"><i class="icon-forward"></i></a>
                                             </div><!-- End .icon-circle -->
-                                            <h4>Ajax Portfolio Item</h4>
+                                            <h4>charter</h4>
                                             <h6>HTML/ CSS</h6>
                                         </div><!-- End .portfolio-hover -->
                                     </div><!-- End .portfolio-hover-container -->
                                     <img src="http://placehold.it/700x700" class="img-responsive" alt="About the image">
                                 </div><!-- End .mix .portfolio-item .category-3 -->
 
-                                <div class="mix portfolio-item category-3">
+                                <div class="mix portfolio-item charter">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
                                             <div class="icon-circle">
                                                 <a href="#"><i class="icon-forward"></i></a>
                                             </div><!-- End .icon-circle -->
-                                            <h4>Ajax Portfolio Item</h4>
+                                            <h4>charter</h4>
                                             <h6>HTML/ CSS</h6>
                                         </div><!-- End .portfolio-hover -->
                                     </div><!-- End .portfolio-hover-container -->
                                     <img src="http://placehold.it/700x700" class="img-responsive" alt="About the image">
                                 </div><!-- End .mix .portfolio-item .category-3 -->
 
-                                <div class="mix portfolio-item category-1">
+                                <div class="mix portfolio-item diplomas">
                                     <div class="portfolio-hover-container">
                                         <div class="portfolio-hover">
                                             <div class="icon-circle">
                                                 <a href="#"><i class="icon-forward"></i></a>
                                             </div><!-- End .icon-circle -->
-                                            <h4>Ajax Portfolio Item</h4>
+                                            <h4>diplomas</h4>
                                             <h6>HTML/ CSS</h6>
                                         </div><!-- End .portfolio-hover -->
                                     </div><!-- End .portfolio-hover-container -->
@@ -270,7 +320,7 @@
                         <a href="about.html" class="btn btn-success">Подробнее</a>
                     </div>
                     
-                    <div class="col-md-3 space-mb">
+                    <div class="col-md-3 space-mb text-center">
                         <h4>Контакты</h4>
                         <div class="footer-contact-bg">
                             <div class="footer-location">
@@ -298,7 +348,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 space-mb text-center">
                         <h4>Рассылка</h4>
                         <p class="text-grey">
                             Если вы хотите быть в курсе событий и получать уведомления про все акции которые мы проводим - укажите адрес своей электронной почты, что б быть на связи.
@@ -308,7 +358,7 @@
                         <span class="signup-note">Мы уважаем вашу конфиденциальность</span>
                     </div>
 
-                    <div class="col-md-3 space-mb">
+                    <div class="col-md-3 space-mb text-center">
                         <h4>Лента в Twitter</h4>
                         <div class="tweet">
                             <p><a href="#">@Mint</a>, Proin feugiat mattis ante sed adipiscing velit sodales..<br><span>25 Minutes ago</span></p>

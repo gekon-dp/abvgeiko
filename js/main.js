@@ -346,7 +346,7 @@ $('.post-slider').owlCarousel({
     singleItem: true,
     slideSpeed : 1000,
     mouseDrag: false,
-    autoPlay: 3000
+    autoPlay: 6000
 });
 
 $('.post-slider.textbox').owlCarousel({
@@ -387,7 +387,7 @@ $('.portfolio-single-slider').owlCarousel({
 $('.quotes-slider').owlCarousel({
     singleItem: true,
     slideSpeed: 1000,
-    autoPlay: 5000,
+    autoPlay: 12000,
     mouseDrag: false,
     pagination: true,
     navigation: false
@@ -414,7 +414,7 @@ $('.testimonials-slider ').owlCarousel({
 $('.box-testimonials-slider').owlCarousel({
     singleItem: true,
     slideSpeed: 1000,
-    autoPlay: 5000,
+    autoPlay: 10000,
     mouseDrag: false,
     pagination: false,
     navigation:true,

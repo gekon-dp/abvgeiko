@@ -232,7 +232,7 @@ footer {
   footer a {
     color: #fff; }
     footer a:hover {
-      text-decoration: underline; }
+      text-decoration: none; }
   footer h4,
   footer h5 {
     color: #fff; }
